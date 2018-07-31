@@ -83,13 +83,13 @@ a rank.
 */
 var rank = "You answered " + score + " correctly!";
   if (score === 5) {
-    alert("You got 5 answers correct. You earned the gold crown!")
+    alert("You got 5 answers correct. You earned the gold trophy!")
   } else if (score > 2) {
-    alert("You got 3-4 answers correct. You earned the silver crown!")
+    alert("You got 3-4 answers correct. You earned the silver tropy!")
   } else if (score > 0) {
-    alert("You got 1-2 answers correct. You earned the bronze crown!")  
+    alert("You got 1-2 answers correct. You earned the bronze tropy!")  
   } else {
-    alert("You got 0 answers correct. You didn't earn a crown!")
+    alert("You got 0 answers correct. You didn't earn a tropy!")
   }
 
 
