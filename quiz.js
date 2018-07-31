@@ -7,11 +7,10 @@ This is the first question, its answer
 and how it handles the users input to generate 
 their score.
 */
-var questionOne = prompt("What is the name of SEGA's blue mascot?");
-var questionOneAnswerA = "SONIC";
-var questionOneAnswerB = "SONIC THE HEDGEHOG";
+var questionOne = prompt("What is the name of SEGA's blue hedgehog mascot?");
+var questionOneAnswer = "SONIC";
 
-if (questionOne.toUpperCase() === questionOneAnswerA || questionOneAnswerB) {
+if (questionOne.toUpperCase() === questionOneAnswer) {
   score += 1;
   alert("That is correct!");
 } else {
@@ -25,6 +24,7 @@ their score.
 */
 var questionTwo = prompt("Where did Gordon Freeman work?");
 var questionTwoAnswer = "BLACK MESA";
+
 if (questionTwo.toUpperCase() === questionTwoAnswer) {
   score += 1;
   alert("That is correct!");
@@ -39,6 +39,7 @@ their score.
 */
 var questionThree = prompt("What colour is Megaman's friend, Protoman?");
 var questionThreeAnswer = "RED";
+
 if (questionThree.toUpperCase() === questionThreeAnswer) {
   score += 1;
   alert("That is correct!");
@@ -53,6 +54,7 @@ their score.
 */
 var questionFour = prompt("What is the name of Ryo Hazuki's hometown?");
 var questionFourAnswer = "YAMANOSE";
+
 if (questionFour.toUpperCase() === questionFourAnswer) {
   score += 1;
   alert("That is correct!");
@@ -65,11 +67,10 @@ This is the fifth question, its answer
 and how it handles the users input to generate 
 their score.
 */
-var questionFive = prompt("What is Ness's main weapon?");
-var questionFiveAnswerA = "BASEBALL BAT";
-var questionFiveAnswerB = "A BASEBALL BAT";
+var questionFive = prompt("What is Ness's main weapon, a?");
+var questionFiveAnswer = "BASEBALL BAT";
 
-if (questionFive.toUpperCase() === questionFiveAnswerA || questionFiveAnswerB) {
+if (questionFive.toUpperCase() === questionFiveAnswer) {
   score += 1;
   alert("That is correct!");
 } else {
