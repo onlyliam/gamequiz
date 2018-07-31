@@ -11,7 +11,7 @@ var questionOne = prompt("What is the name of SEGA's blue mascot?");
 var questionOneAnswerA = "SONIC";
 var questionOneAnswerB = "SONIC THE HEDGEHOG";
 
-if (questionOne.toUpperCase() === questionOneAnswerA || questionOneAnswerB ) {
+if (questionOne.toUpperCase() === questionOneAnswerA || questionOneAnswerB) {
   score += 1;
   alert("That is correct!");
 } else {
@@ -69,7 +69,7 @@ var questionFive = prompt("What is Ness's main weapon?");
 var questionFiveAnswerA = "BASEBALL BAT";
 var questionFiveAnswerB = "A BASEBALL BAT";
 
-if (questionFive.toUpperCase() === questionFiveAnswerA || questionFiveAnswerB ) {
+if (questionFive.toUpperCase() === questionFiveAnswerA || questionFiveAnswerB) {
   score += 1;
   alert("That is correct!");
 } else {
